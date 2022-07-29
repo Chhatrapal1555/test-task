@@ -29,7 +29,7 @@ function ReceiptDetails() {
       copyErrorMessages.date ='This field is required.'
     }
   
-    if (amount.trim()<0 ) {
+    if (amount.trim()) {
      
       copyErrorMessages.amount = '';
     }
